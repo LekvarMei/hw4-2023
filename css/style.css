@@ -60,11 +60,11 @@ img{
   grid-row: 1/1;
 }
 
-.method, .method-image{
+.clients, .clients-image{
   grid-row: 2/2;
 }
 
-.clients, .clients-image{
+.method, .method-image{
   grid-row: 3/3;
 }
 
@@ -115,12 +115,12 @@ img{
 
 
   /* Requirement 13 code here -- Do not remove this comment. */
-  .about, .clients, .method-image, .contact-image {
+  .about, .method, .clients-image, .contact-image {
     grid-column: 3/5;
   }
 
   /* Requirement 14 code here -- Do not remove this comment. */
-  .clients, .method, .about-image, .clients-image {
+  .clients, .contact, .about-image, .method-image {
     grid-column: 2/4;
   }
 
