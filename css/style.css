@@ -11,7 +11,6 @@ left: -400px;
 top: -200px;
 }
 
-
 /* Requirement 2 code here -- Do not remove this comment. */
 nav a:focus{
   text-decoration: overline;
@@ -83,7 +82,7 @@ img{
 
 
   /*Add the media query here.  Make sure to */
-  @media all and (min-width: 800px){
+@media all and (min-width: 800px){
   nav{
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
